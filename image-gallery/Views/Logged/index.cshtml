@@ -1,0 +1,43 @@
+@{
+    ViewData["Title"] = "Logged Page";
+    Layout = "_Logged";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome, @ViewData["LoggedUser"]</h1>
+    <h2>Your images</h2>
+    <div id="image-container" style="display: flex; flex-direction: row; gap: 5px">
+        
+    </div>
+</div>
+@section Scripts
+{<script type="text/javascript">
+
+    let container = document.getElementById("image-container");
+    function getData() { 
+      return $.ajax({
+      url: '@Url.Action("GetUserImages", "Image")',
+      type: 'GET',
+      processData: false,
+      contentType: false,         
+     });
+    }
+    
+   async function data(){
+    try {
+        const res = await getData();
+        for(let i = 0; i < res.length; i++){
+            let img = document.createElement("img");
+            img.src = res[i];
+            img.style.width = "250px";
+            img.style.height = "250px";
+            container.appendChild(img);
+        }
+    } catch (e){
+        console.log(e);
+    }
+    }
+    $(document).ready(async function () {
+        await data();
+    });
+</script>}

@@ -1,0 +1,9 @@
+services:
+  mssql-db:
+    container_name: image-gallery-dotnet
+    image: mcr.microsoft.com/mssql/server:2022-CU1-ubuntu-20.04
+    ports:
+      - 8002:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=test12!@#$@asd
