@@ -49,7 +49,7 @@ public class ImageController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Index(List<IFormFile> files)
+    public async Task<IActionResult> Index(List<IFormFile> files, bool isPrivate)
     {
         ClaimsPrincipal claimUser = HttpContext.User;
         var user = _context.Users.FirstOrDefault(u => u.Username == claimUser.Identity.Name);
@@ -65,8 +65,8 @@ public class ImageController : Controller
                 var dbFilePath = Path.Combine("images", myuuidAsString + "_" +formFile.FileName);
                 Image image = new Image();
                 image.User = user;
-                image.Rating = 0;
                 image.Url = dbFilePath;
+                image.Private = isPrivate;
                 _context.Images.Add(image);
                 await _context.SaveChangesAsync();
                 // filePaths.Add(filePath);
@@ -78,5 +78,23 @@ public class ImageController : Controller
         }
 
         return RedirectToAction("Index", "Logged");
+    }
+    
+    public IActionResult PublicImages()
+    {
+        return View();
+    }
+    
+    [HttpGet]
+    public JsonResult GetPublicImages()
+    {
+        var images = _context.Images.Where(image => image.Private == false);
+        var imagesPath = new List<string>();
+        foreach (var image in images)
+        {
+            imagesPath.Add(image.Url);
+        }
+
+        return Json(imagesPath);
     }
 }

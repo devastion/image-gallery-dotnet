@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW1hZ2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Image/PublicImages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW1hZ2UvUHVibGljSW1hZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Logged/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9nZ2VkL2luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

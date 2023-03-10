@@ -15,6 +15,7 @@ public class DataContext : DbContext
     }
 
     public DbSet<User> Users { get; set; }
+    public DbSet<Image> Images { get; set; }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -22,6 +23,4 @@ public class DataContext : DbContext
             .HasIndex(u => new { u.Username })
             .IsUnique(true);
     }
-    
-    public DbSet<Image> Images { get; set; }
 }

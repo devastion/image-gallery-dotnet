@@ -29,8 +29,8 @@ namespace imagegallery.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Rating")
-                        .HasColumnType("int");
+                    b.Property<bool>("Private")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Url")
                         .IsRequired()

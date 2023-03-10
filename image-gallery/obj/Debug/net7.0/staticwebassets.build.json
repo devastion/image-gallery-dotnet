@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EC0Cp0k6wKwWbYWFiIOWW7PvadAY4wZJKbi+CcgpydE=",
+  "Hash": "auzpWfr36V45uk0BdKMqxKViPFr2YSe5HBdcjiZhuxs=",
   "Source": "image-gallery",
   "BasePath": "_content/image-gallery",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot/image_gallery.styles.css"
     },
     {
-      "Identity": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/63e34f49-0225-4524-9be1-83efbeb7c0bf_wallpaper.png",
+      "Identity": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/6565a141-faeb-48e9-a472-9d9f54ede302_wallpaper.png",
       "SourceId": "image-gallery",
       "SourceType": "Discovered",
       "ContentRoot": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/",
       "BasePath": "_content/image-gallery",
-      "RelativePath": "images/63e34f49-0225-4524-9be1-83efbeb7c0bf_wallpaper.png",
+      "RelativePath": "images/6565a141-faeb-48e9-a472-9d9f54ede302_wallpaper.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,24 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/63e34f49-0225-4524-9be1-83efbeb7c0bf_wallpaper.png"
-    },
-    {
-      "Identity": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/82a08839-30ef-4e6e-8e0e-1899f6dcd74d_devatar.png",
-      "SourceId": "image-gallery",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/",
-      "BasePath": "_content/image-gallery",
-      "RelativePath": "images/82a08839-30ef-4e6e-8e0e-1899f6dcd74d_devatar.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/82a08839-30ef-4e6e-8e0e-1899f6dcd74d_devatar.png"
+      "OriginalItemSpec": "wwwroot/images/6565a141-faeb-48e9-a472-9d9f54ede302_wallpaper.png"
     },
     {
       "Identity": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/js/site.js",

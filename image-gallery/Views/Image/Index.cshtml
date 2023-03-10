@@ -9,6 +9,7 @@
     <form enctype="multipart/form-data" method="post" asp-controller="Image">
            <div class="form-group">
                <label class="control-label"></label>
+               Private: <input type="checkbox" name="isPrivate" value="true"/>
                <input type="file" name="files" multiple class="form-control"/>
            </div>
         <input class="btn"  type="submit" value="Upload">
