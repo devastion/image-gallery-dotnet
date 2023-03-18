@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "auzpWfr36V45uk0BdKMqxKViPFr2YSe5HBdcjiZhuxs=",
+  "Hash": "KDHbx5TmmEpXdCm0g7s9RziCry+21la0LEHUxRM2lfc=",
   "Source": "image-gallery",
   "BasePath": "_content/image-gallery",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot/image_gallery.styles.css"
     },
     {
+      "Identity": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/2eb61577-a184-40a4-8f1f-976c03a8ccf3_wallpaper.png",
+      "SourceId": "image-gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/",
+      "BasePath": "_content/image-gallery",
+      "RelativePath": "images/2eb61577-a184-40a4-8f1f-976c03a8ccf3_wallpaper.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/2eb61577-a184-40a4-8f1f-976c03a8ccf3_wallpaper.png"
+    },
+    {
       "Identity": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/6565a141-faeb-48e9-a472-9d9f54ede302_wallpaper.png",
       "SourceId": "image-gallery",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/6565a141-faeb-48e9-a472-9d9f54ede302_wallpaper.png"
+    },
+    {
+      "Identity": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/b2d7a99e-879b-40b4-9e9f-50c33e47f29d_devatar.png",
+      "SourceId": "image-gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/",
+      "BasePath": "_content/image-gallery",
+      "RelativePath": "images/b2d7a99e-879b-40b4-9e9f-50c33e47f29d_devatar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/b2d7a99e-879b-40b4-9e9f-50c33e47f29d_devatar.png"
     },
     {
       "Identity": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/js/site.js",

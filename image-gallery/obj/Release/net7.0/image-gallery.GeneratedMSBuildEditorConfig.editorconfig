@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = image_gallery
+build_property.RootNamespace = image_gallery
+build_property.ProjectDir = /home/banev/Github/image-gallery-dotnet/image-gallery/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/banev/Github/image-gallery-dotnet/image-gallery
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Image/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW1hZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Image/PublicImages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW1hZ2UvUHVibGljSW1hZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Logged/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9nZ2VkL2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zy0zbdsy1n
+
+[/home/banev/Github/image-gallery-dotnet/image-gallery/Views/Shared/_Logged.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dnZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fl1e69n0pe

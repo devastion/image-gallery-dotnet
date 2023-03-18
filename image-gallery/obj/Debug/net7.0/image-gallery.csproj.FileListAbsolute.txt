@@ -74,3 +74,8 @@
 /home/banev/Github/image-gallery-dotnet/image-gallery/obj/Debug/net7.0/image-gallery.genruntimeconfig.cache
 /home/banev/Github/image-gallery-dotnet/image-gallery/obj/Debug/net7.0/ref/image-gallery.dll
 /home/banev/Github/image-gallery-dotnet/image-gallery/obj/Debug/net7.0/scopedcss/Views/Shared/_Logged.cshtml.rz.scp.css
+/home/banev/Github/image-gallery-dotnet/image-gallery/bin/Debug/net7.0/build/appsettings.Development.json
+/home/banev/Github/image-gallery-dotnet/image-gallery/bin/Debug/net7.0/build/appsettings.json
+/home/banev/Github/image-gallery-dotnet/image-gallery/bin/Debug/net7.0/build/image-gallery.deps.json
+/home/banev/Github/image-gallery-dotnet/image-gallery/bin/Debug/net7.0/build/image-gallery.runtimeconfig.json
+/home/banev/Github/image-gallery-dotnet/image-gallery/bin/Debug/net7.0/build/image-gallery.staticwebassets.runtime.json

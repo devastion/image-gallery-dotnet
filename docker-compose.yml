@@ -1,0 +1,28 @@
+services:
+  mssql-db:
+    image: mcr.microsoft.com/mssql/server:2022-CU1-ubuntu-20.04
+    ports:
+      - 8002:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=test12!@#$@asd
+    restart: always
+    networks:
+      - backend
+#    healthcheck:
+#        test: [ "CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P test12!@#$@asd -Q 'SELECT 1' || exit 1" ]
+#        interval: 10s
+#        retries: 10
+#        start_period: 10s
+#        timeout: 3s
+  web:
+    build: image-gallery/
+    ports:
+      - 5166:80
+    depends_on:
+      - mssql-db
+    networks:
+      - backend
+
+networks:
+  backend:

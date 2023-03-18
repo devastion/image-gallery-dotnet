@@ -17,8 +17,16 @@
       "PackagePath": "staticwebassets/image_gallery.styles.css"
     },
     {
+      "Id": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/2eb61577-a184-40a4-8f1f-976c03a8ccf3_wallpaper.png",
+      "PackagePath": "staticwebassets/images/2eb61577-a184-40a4-8f1f-976c03a8ccf3_wallpaper.png"
+    },
+    {
       "Id": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/6565a141-faeb-48e9-a472-9d9f54ede302_wallpaper.png",
       "PackagePath": "staticwebassets/images/6565a141-faeb-48e9-a472-9d9f54ede302_wallpaper.png"
+    },
+    {
+      "Id": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/images/b2d7a99e-879b-40b4-9e9f-50c33e47f29d_devatar.png",
+      "PackagePath": "staticwebassets/images/b2d7a99e-879b-40b4-9e9f-50c33e47f29d_devatar.png"
     },
     {
       "Id": "/home/banev/Github/image-gallery-dotnet/image-gallery/wwwroot/js/site.js",
@@ -254,7 +262,7 @@
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.image-gallery.props",
-      "PackagePath": "build\\image-gallery.props"
+      "PackagePath": "build/image-gallery.props"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.image-gallery.props",
@@ -266,7 +274,7 @@
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.image-gallery.Microsoft.AspNetCore.StaticWebAssets.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+      "PackagePath": "build/Microsoft.AspNetCore.StaticWebAssets.props"
     }
   ],
   "ElementsToRemove": []

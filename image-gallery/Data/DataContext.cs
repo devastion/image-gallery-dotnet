@@ -11,7 +11,7 @@ public class DataContext : DbContext
     {
         base.OnConfiguring(optionsBuilder);
         optionsBuilder.UseSqlServer(
-            "Server=localhost,8002;Database=image_gallery;User Id=sa;password=test12!@#$@asd;Trusted_Connection=False;Encrypt=false;MultipleActiveResultSets=true;");
+            "Server=mssql-db,1433;Database=image_gallery;User Id=sa;password=test12!@#$@asd;Trusted_Connection=False;Encrypt=false;MultipleActiveResultSets=true;");
     }
 
     public DbSet<User> Users { get; set; }
