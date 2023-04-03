@@ -1,5 +1,5 @@
 # Image Gallery .NET
-University project building image gallery using dotnet.
+University project building image gallery using dotnet. Using MS SQL Server for database.
 
 ## Functionalities
 - Login / Register
