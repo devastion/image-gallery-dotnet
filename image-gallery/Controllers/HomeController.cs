@@ -31,12 +31,12 @@ public class HomeController : Controller
         return View();
     }
     
-    public async Task<IActionResult> LogOut()
-    {
+    // public async Task<IActionResult> LogOut()
+    // {
 
-        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        return RedirectToAction("Login","Auth");
-    }
+    //     await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+    //     return RedirectToAction("Login","Auth");
+    // }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
